@@ -11,8 +11,22 @@ The user can configure their own threshold by specifying an EAR ratio and custom
 
 ## Libraries used:
 - `dlib` for the face detection model
-- `opencv` for drawing frames around the eyes
+- `opencv-python` for drawing frames around the eyes
 - `tkinter` for the GUI
+- `playsound` to play the alarm
+- `scipy` for Euclidean distance calculations
+
+
+---
+
+## Installation:
+
+**You must have Python 3.6 or higher to run the file.**
+
+- Create a new virtual environment for running the application. You can follow the instructions [here.](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/)
+- Navigate to the virtual environment and activate it.
+- Install the dependancies using `pip install -r requirements.txt`
+- Run the `dds.py` file with `python dds.py`
 
 ---
 
